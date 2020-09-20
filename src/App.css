@@ -1,20 +1,18 @@
 body {
-background-color: #424351;
-
+  background-color: #424351;
 }
 
-h1, h3 {
+h1,
+h3 {
   color: white;
   text-align: center;
 }
-
 
 ul {
   list-style-type: none;
   text-decoration: none !important;
   padding: 20px;
   display: flex;
-  justify-content: center;
 }
 
 ul li {
@@ -25,7 +23,21 @@ ul li {
 }
 
 .header-navigation {
-  background-color: #F43A1C;
+  background-color: #585968;
+  text-decoration: white !important;
+  padding-top: 2px;
+}
+
+.footer-navigation {
+  background-color: #f43a1c;
   text-decoration: none !important;
+}
+
+#header-list {
+  justify-content: space-between;
+}
+
+#footer-list {
+  justify-content: space-around;
 }
 

@@ -4,18 +4,12 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="header-navigation">
-      <ul>
+      <ul id="header-list">
         <li>
-          <Link to="/lander">HOME</Link>
+          <Link to="/">SRC CODE</Link>
         </li>
         <li>
-          <Link to="/about">ABOUT</Link>
-        </li>
-        <li>
-          <Link to="/invite">INVITE</Link>
-        </li>
-        <li>
-          <Link to="/support">SUPPORT</Link>
+          <Link to="/about">REPORT BUGS</Link>
         </li>
       </ul>
     </nav>
