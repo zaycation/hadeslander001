@@ -2,10 +2,6 @@ body {
   background-color: #424351;
 }
 
-.Button {
-  color: #f43a1c;
-}
-
 h1,
 h3 {
   color: white;
@@ -14,7 +10,6 @@ h3 {
 
 ul {
   list-style-type: none;
-  text-decoration: none !important;
   padding: 10px;
   display: flex;
 }
@@ -43,4 +38,20 @@ ul li {
 #paper-styles {
   justify-content: center;
   margin: auto;
+}
+
+.hadesicon {
+  display: flex;
+  margin: auto;
+  max-width: 65%;
+  height: auto;
+}
+
+.cmdlist {
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  height: auto;
+  border: 4.5px solid #e6e6e6;
+  border-radius: 20px;
 }

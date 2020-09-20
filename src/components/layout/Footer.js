@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+
 //react router imports
+import { Link } from "react-router-dom";
 
 //material-ui imports
 import Button from "@material-ui/core/Button";
@@ -20,17 +22,17 @@ const Footer = () => {
       <Grid container spacing={0}>
         <Grid items xs={4}>
           <Button variant="contained" startIcon={<InfoIcon />}>
-            ABOUT
+            <Link to="/about">ABOUT</Link>
           </Button>
         </Grid>
         <Grid items xs={4}>
           <Button variant="contained" startIcon={<AddIcon />}>
-            INVITE
+            <Link to="/invite">INVITE</Link>
           </Button>
         </Grid>
         <Grid items xs={4}>
           <Button variant="contained" startIcon={<HeadsetMicIcon />}>
-            SUPPORT
+            <Link to="/support">SUPPORT</Link>
           </Button>
         </Grid>
       </Grid>

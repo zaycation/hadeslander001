@@ -20,6 +20,9 @@ function App() {
       <div className="AppHeader">
         <Header />
       </div>
+      <br />
+      <br />
+      <br />
 
       <Switch>
         <Route exact path="/" component={Lander}></Route>
