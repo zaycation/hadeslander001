@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 //react router imports
-import { Link } from "react-router-dom";
 
 //material-ui imports
 import Button from "@material-ui/core/Button";
