@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 
 //Layout Imports
-import Header from './components/layout/Header'
+import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 
 //Pages Imports
@@ -29,7 +29,11 @@ function App() {
 
         <Redirect to="/" />
       </Switch>
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <div className="AppFooter">
         <Footer />
       </div>

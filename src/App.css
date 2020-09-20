@@ -2,6 +2,10 @@ body {
   background-color: #424351;
 }
 
+.Button {
+  color: #f43a1c;
+}
+
 h1,
 h3 {
   color: white;
@@ -11,7 +15,7 @@ h3 {
 ul {
   list-style-type: none;
   text-decoration: none !important;
-  padding: 20px;
+  padding: 10px;
   display: flex;
 }
 
@@ -23,21 +27,20 @@ ul li {
 }
 
 .header-navigation {
+  margin-top: -20px;
   background-color: #585968;
   text-decoration: white !important;
-  padding-top: 2px;
 }
 
-.footer-navigation {
-  background-color: #f43a1c;
-  text-decoration: none !important;
+#footer-navigation {
+  justify-content: space-around;
 }
 
 #header-list {
   justify-content: space-between;
 }
 
-#footer-list {
-  justify-content: space-around;
+#paper-styles {
+  justify-content: center;
+  margin: auto;
 }
-
