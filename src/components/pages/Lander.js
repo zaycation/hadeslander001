@@ -8,19 +8,14 @@ const Lander = () => {
   return (
     <div>
       <Grid container spacing={0}>
-        <Grid items xs={7}>
-          <Box component="span" m={1} color="text.primary">
+        <Grid items xs={1}></Grid>
+        <Grid items xs={5}>
+          <Box component="span" m={0} color="text.primary">
             <img
               className="cmdlist"
               alt="Hades Command List"
               src="https://i.imgur.com/jVBXhjl.png"
             />
-
-            <h3>
-              The simple, lightweight bot every server needs. Add for
-              moderation, fun games, music, and more coming soon! Currently in
-              alpha testing.
-            </h3>
           </Box>
         </Grid>
         <Grid item xs={5}>
@@ -30,6 +25,7 @@ const Lander = () => {
             src="https://i.imgur.com/CTnqERH.png"
           />
         </Grid>
+        <Grid items xs={1}></Grid>
       </Grid>
     </div>
   );

@@ -1,16 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
-
 //react router imports
 import { Link } from "react-router-dom";
 
 //material-ui imports
-import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
-import HeadsetMicIcon from "@material-ui/icons/HeadsetMic";
-import InfoIcon from "@material-ui/icons/Info";
-import AddIcon from "@material-ui/icons/Add";
+
+//evergreen imports
+import { Button, ApplicationsIcon, CubeAddIcon, HelpIcon } from 'evergreen-ui';
 
 const Container = styled.div`
   text-align: center;
@@ -21,17 +19,17 @@ const Footer = () => {
     <Container>
       <Grid container spacing={0}>
         <Grid items xs={4}>
-          <Button variant="contained" startIcon={<InfoIcon />}>
+          <Button height={40} appearance="primary" iconBefore={ApplicationsIcon} is="Link">
             <Link to="/about">ABOUT</Link>
           </Button>
         </Grid>
         <Grid items xs={4}>
-          <Button variant="contained" startIcon={<AddIcon />}>
+        <Button height={40} appearance="primary" iconBefore={CubeAddIcon} is="Link">
             <Link to="/invite">INVITE</Link>
           </Button>
         </Grid>
         <Grid items xs={4}>
-          <Button variant="contained" startIcon={<HeadsetMicIcon />}>
+        <Button height={40} appearance="primary" iconBefore={HelpIcon} is="Link">
             <Link to="/support">SUPPORT</Link>
           </Button>
         </Grid>

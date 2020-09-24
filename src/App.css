@@ -1,11 +1,12 @@
 body {
-  background-color: #424351;
+  background-color: #666666;
 }
 
 h1,
 h3 {
   color: white;
   text-align: center;
+  
 }
 
 ul {
@@ -48,9 +49,10 @@ ul li {
 }
 
 .cmdlist {
-  max-width: 100%;
+  max-width: 87%;
   display: flex;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   border: 4.5px solid #e6e6e6;
   border-radius: 20px;
