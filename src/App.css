@@ -3,24 +3,9 @@ body {
 }
 
 h1,
-h3,
 p {
-  color: white;
+  color: #FFB176;
   text-align: center;
-  
-}
-
-ul {
-  list-style-type: none;
-  padding: 10px;
-  display: flex;
-}
-
-ul li {
-  text-decoration: none !important;
-  color: white !important;
-  padding: 5px;
-  font-size: medium;
 }
 
 .header-navigation {
@@ -55,6 +40,11 @@ ul li {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  border: 4.5px solid #e6e6e6;
+  border: 4.5px solid #424351;
   border-radius: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
 }

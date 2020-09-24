@@ -7,7 +7,7 @@ import styled from "styled-components";
 import Grid from "@material-ui/core/Grid";
 
 //evergreen imports
-import { Button } from "evergreen-ui";
+import { Button, CodeBlockIcon, BankAccountIcon } from "evergreen-ui";
 
 const Container = styled.div`
   text-align: center;
@@ -18,7 +18,13 @@ const Header = () => {
     <Container>
       <Grid container spacing={0}>
         <Grid items xs={6}>
-          <Button height={20} appearance="default" intent="danger" is="Link">
+          <Button
+            height={24}
+            appearance="primary"
+            intent="danger"
+            iconBefore={CodeBlockIcon}
+            is="Link"
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +35,13 @@ const Header = () => {
           </Button>
         </Grid>
         <Grid items xs={6}>
-          <Button height={20} appearance="default" intent="danger" is="Link">
+          <Button
+            height={24}
+            appearance="primary"
+            intent="danger"
+            iconBefore={BankAccountIcon}
+            is="Link"
+          >
             <a
               target="_blank"
               rel="noopener noreferrer"
