@@ -4,6 +4,8 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 
+//evergreen imports
+
 const Lander = () => {
   return (
     <div>
@@ -26,6 +28,19 @@ const Lander = () => {
           />
         </Grid>
         <Grid items xs={1}></Grid>
+      </Grid>
+      <Grid container spacing={0}>
+        <Grid items xs={2}></Grid>
+        <Grid items xs={8}>
+          <h1>
+            HADES DISCORD BOT
+          </h1>
+          <p>
+            Hades [Ἁιδης] is a darknet and crypto bot. Add Hades to your server
+            to get awesome updates and never stay out of the loop!
+          </p>
+        </Grid>
+        <Grid items xs={2}></Grid>
       </Grid>
     </div>
   );
